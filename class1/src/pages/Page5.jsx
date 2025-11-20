@@ -36,10 +36,15 @@ class Page5 extends Component{
         super(props)
         this.p=12345,7890;
         this.q=523.34567;
+        
     }
+     clickHandler(){
+                alert("Button clicked");
+            }
     render(){
         let a=256;
             const b=152.99;
+           
         return (
              <div>
                 <h3>Variables and data binding class Component</h3>
@@ -73,6 +78,7 @@ class Page5 extends Component{
                         )
                     })}
                 </div>
+                <button onClick={this.clickHandler}>click me</button>
              </div>
  
         )
