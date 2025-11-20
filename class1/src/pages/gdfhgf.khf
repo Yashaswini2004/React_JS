@@ -1,0 +1,9 @@
+function abc(){
+
+}
+const abc=()=>{
+
+}
+const abc=function(){
+    
+}

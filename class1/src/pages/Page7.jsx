@@ -23,6 +23,9 @@ let student=[
     }
 ]
 const Page7=()=>{
+    // local variable
+    let a=1245;
+    let b=35.1234;
     return (
         <div>
             <h2>Variables in arrow function</h2>
@@ -42,6 +45,8 @@ const Page7=()=>{
                 </div>
             )
         })}
+        <h2>a={a}</h2>
+        <h2>b={b}</h2>
         </div>
     )
 }
