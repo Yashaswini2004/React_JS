@@ -61,6 +61,9 @@ class App extends Component{
         out:eval(this.state.inp)
       })
     }
+    else if(val==="log"){
+      out:Math.log10(this.state.inp)
+    }
     else{
       this.setState({
         inp:this.state.inp+val
